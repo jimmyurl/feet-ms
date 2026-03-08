@@ -19,8 +19,8 @@ The application provides role-based access control, secure authentication, and r
 
 ---
 
-## Setup
-
+## Project Structure
+```
 src/
 │
 ├── components/
@@ -66,7 +66,7 @@ src/
 │       └── ExpensesPage.js
 │
 └── App.js
-
+```
 ### 2. Environment Variables
 ```bash
 cp .env.example .env
