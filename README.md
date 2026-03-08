@@ -86,10 +86,10 @@ npm start
 ```
 
 ### 4. Create First Admin
-1. Register via login page (you'll see "Awaiting Approval")
-2. In Supabase → Table Editor → `profiles` table
-3. Set your user's `role = admin` and `status = approved`
-4. Sign in again — full access granted
+1. Register for an account from the **Login Page**.
+2. After registration, your account will show **"Awaiting Approval"**.
+3. An **Administrator** must approve your account from the **Admin Dashboard → Users page**.
+4. Once approved, sign in again to access the system.
 
 ---
 
