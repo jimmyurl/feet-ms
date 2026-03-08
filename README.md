@@ -1,4 +1,5 @@
-# FleetMS — Fleet Management System
+# FleetMS — Fleet Management System.
+
 A modern Fleet Management System built with React and Supabase to help organizations manage vehicles, drivers, trips, fuel usage, maintenance, HR, and compliance in one centralized platform. 
 The application provides role-based access control, secure authentication, and real-time database integration through Supabase.
 ---
