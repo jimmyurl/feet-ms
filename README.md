@@ -4,7 +4,7 @@ A modern Fleet Management System built with React and Supabase to help organizat
 
 The application provides role-based access control, secure authentication, and real-time database integration through Supabase.
 
----
+
 
 ## Modules
 
@@ -19,7 +19,7 @@ The application provides role-based access control, secure authentication, and r
 | ⚠️ Incidents | Accident reports, damage costs, resolution tracking |
 | 📈 Reports | Fleet cost, fuel analysis, per-vehicle breakdown |
 
----
+
 
 ## Project Structure
 ```
@@ -91,7 +91,7 @@ npm start
 3. An **Administrator** must approve your account from the **Admin Dashboard → Users page**.
 4. Once approved, sign in again to access the system.
 
----
+
 
 ## Roles
 | Role    | Access |
@@ -101,7 +101,7 @@ npm start
 | staff   | View + create records (trips, fuel, incidents) |
 | viewer  | Read-only |
 
----
+
 
 ## Build & Deploy
 ```bash
