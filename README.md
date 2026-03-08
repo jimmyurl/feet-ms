@@ -1,6 +1,7 @@
 # FleetMS — Fleet Management System
-Built by MNADANI Company Limited
+A modern Fleet Management System built with React and Supabase to help organizations manage vehicles, drivers, trips, fuel usage, maintenance, HR, and compliance in one centralized platform.
 
+The application provides role-based access control, secure authentication, and real-time database integration through Supabase.
 ---
 
 ## Modules
@@ -20,10 +21,51 @@ Built by MNADANI Company Limited
 
 ## Setup
 
-### 1. Supabase Project
-1. Go to [supabase.com](https://supabase.com) → New project
-2. SQL Editor → Run the full contents of `supabase_schema.sql`
-3. Copy **Project URL** and **anon key** from Settings → API
+src/
+│
+├── components/
+│   └── layout/
+│       └── Layout.js
+│
+├── context/
+│   ├── SupabaseContext.js
+│   └── ToastContext.js
+│
+├── pages/
+│   ├── LoginPage.js
+│   ├── DashboardPage.js
+│   ├── UsersPage.js
+│
+│   ├── vehicles/
+│   │   └── VehiclesPage.js
+│
+│   ├── drivers/
+│   │   └── DriversPage.js
+│
+│   ├── trips/
+│   │   └── TripsPage.js
+│
+│   ├── fuel/
+│   │   └── FuelPage.js
+│
+│   ├── maintenance/
+│   │   └── MaintenancePage.js
+│
+│   ├── compliance/
+│   │   └── CompliancePage.js
+│
+│   ├── incidents/
+│   │   └── IncidentsPage.js
+│
+│   ├── reports/
+│   │   └── ReportsPage.js
+│
+│   └── hr/
+│       ├── EmployeesPage.js
+│       ├── PayrollPage.js
+│       └── ExpensesPage.js
+│
+└── App.js
 
 ### 2. Environment Variables
 ```bash
