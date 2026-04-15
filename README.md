@@ -1,8 +1,10 @@
-# FleetMS — Fleet Management System
+# FleetMS — Fleet Management System.
+
 A modern Fleet Management System built with React and Supabase to help organizations manage vehicles, drivers, trips, fuel usage, maintenance, HR, and compliance in one centralized platform.
 
-The application provides role-based access control, secure authentication, and real-time database integration through Supabase.
----
+The application provides role-based access control, secure authentication, and real-time database integration through Supabase.!
+
+
 
 ## Modules
 
@@ -17,10 +19,10 @@ The application provides role-based access control, secure authentication, and r
 | ⚠️ Incidents | Accident reports, damage costs, resolution tracking |
 | 📈 Reports | Fleet cost, fuel analysis, per-vehicle breakdown |
 
----
 
-## Setup
 
+## Project Structure
+```
 src/
 │
 ├── components/
@@ -66,7 +68,7 @@ src/
 │       └── ExpensesPage.js
 │
 └── App.js
-
+```
 ### 2. Environment Variables
 ```bash
 cp .env.example .env
@@ -84,12 +86,12 @@ npm start
 ```
 
 ### 4. Create First Admin
-1. Register via login page (you'll see "Awaiting Approval")
-2. In Supabase → Table Editor → `profiles` table
-3. Set your user's `role = admin` and `status = approved`
-4. Sign in again — full access granted
+1. Register for an account from the **Login Page**.
+2. After registration, your account will show **"Awaiting Approval"**.
+3. An **Administrator** must approve your account from the **Admin Dashboard → Users page**.
+4. Once approved, sign in again to access the system.
 
----
+
 
 ## Roles
 | Role    | Access |
@@ -99,11 +101,11 @@ npm start
 | staff   | View + create records (trips, fuel, incidents) |
 | viewer  | Read-only |
 
----
+
 
 ## Build & Deploy
 ```bash
 npm run build
 ```
 Deploy `build/` to Netlify, Vercel, or any static host. Set env vars in the hosting dashboard.
-# feet-ms
+
